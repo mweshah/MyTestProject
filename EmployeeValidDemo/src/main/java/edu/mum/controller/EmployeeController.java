@@ -33,7 +33,7 @@ public class EmployeeController {
 
 	@RequestMapping(value = { "/", "employee_input" })
 	public String inputEmployee(@ModelAttribute("employee") Employee employee) {
-		System.out.println("aaaa");
+		System.out.println("Mohammad Wesah");
 		return "EmployeeForm";
 	}
 
